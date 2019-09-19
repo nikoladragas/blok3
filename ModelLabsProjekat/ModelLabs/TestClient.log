@@ -1,0 +1,108 @@
+18-Sep-19 17:08:46 : Network Model Service Test Client is up and running...
+18-Sep-19 17:08:46 : Result directory: ../Results
+18-Sep-19 17:08:50 : Apply update method started.
+18-Sep-19 17:08:51 : Failed to get model type code for DMS type: PERLENGTHSEQUENCEIMPEDANCE. Invalid DMS type
+18-Sep-19 17:08:51 : Apply update method failed. Failed to get model type code for DMS type: PERLENGTHSEQUENCEIMPEDANCE. Invalid DMS type
+
+18-Sep-19 17:14:33 : Network Model Service Test Client is up and running...
+18-Sep-19 17:14:33 : Result directory: ../Results
+18-Sep-19 17:14:37 : Apply update method started.
+18-Sep-19 17:14:37 : Apply update method failed. Invalid Model Code: PERLENGTHSEQIMP
+
+18-Sep-19 17:16:48 : Network Model Service Test Client is up and running...
+18-Sep-19 17:16:48 : Result directory: ../Results
+18-Sep-19 17:16:51 : Apply update method started.
+18-Sep-19 17:16:52 : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+
+18-Sep-19 17:17:12 : Getting values method started.
+18-Sep-19 17:17:12 : Getting values method successfully finished.
+18-Sep-19 17:18:15 : Getting values method started.
+18-Sep-19 17:18:16 : Getting values method successfully finished.
+18-Sep-19 17:18:50 : Getting values method started.
+18-Sep-19 17:25:57 : Network Model Service Test Client is up and running...
+18-Sep-19 17:25:57 : Result directory: ../Results
+18-Sep-19 17:26:22 : Entering entity id failed. Please use hex (0x) or decimal format.
+18-Sep-19 17:26:22 : GetValues failed. Input string was not in a correct format.
+18-Sep-19 17:26:30 : Entering entity id failed. Please use hex (0x) or decimal format.
+18-Sep-19 17:26:30 : GetValues failed. Input string was not in a correct format.
+18-Sep-19 17:26:42 : Getting values method started.
+18-Sep-19 17:26:42 : Getting values method successfully finished.
+18-Sep-19 17:32:05 : Network Model Service Test Client is up and running...
+18-Sep-19 17:32:05 : Result directory: ../Results
+18-Sep-19 17:32:08 : Getting values method started.
+18-Sep-19 17:32:08 : Getting values method successfully finished.
+18-Sep-19 17:32:52 : Getting values method started.
+18-Sep-19 17:32:52 : Getting values method successfully finished.
+18-Sep-19 17:33:54 : Getting values method started.
+18-Sep-19 17:41:01 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_DESCRIPTION for entity (GID = 0x0000000300000001).
+18-Sep-19 17:41:24 : Getting values method started.
+18-Sep-19 17:41:24 : Getting values method successfully finished.
+18-Sep-19 17:41:52 : Getting values method started.
+18-Sep-19 17:41:52 : Getting values method successfully finished.
+18-Sep-19 17:42:19 : Getting values method started.
+18-Sep-19 17:42:19 : Getting values method successfully finished.
+18-Sep-19 17:49:01 : Network Model Service Test Client is up and running...
+18-Sep-19 17:49:01 : Result directory: ../Results
+18-Sep-19 17:49:18 : Getting values method started.
+18-Sep-19 17:58:26 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_DESCRIPTION for entity (GID = 0x0000000300000001).
+18-Sep-19 17:59:04 : Getting values method started.
+18-Sep-19 17:59:04 : Getting values method successfully finished.
+18-Sep-19 17:59:33 : Getting values method started.
+18-Sep-19 17:59:34 : Getting values method successfully finished.
+18-Sep-19 17:59:52 : Getting values method started.
+18-Sep-19 18:01:26 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_DESCRIPTION for entity (GID = 0x0000000300000001).
+18-Sep-19 18:02:08 : Getting values method started.
+18-Sep-19 18:02:08 : Getting values method successfully finished.
+18-Sep-19 18:05:09 : Network Model Service Test Client is up and running...
+18-Sep-19 18:05:09 : Result directory: ../Results
+18-Sep-19 18:05:22 : Getting values method started.
+18-Sep-19 18:06:34 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_DESCRIPTION for entity (GID = 0x0000000300000001).
+18-Sep-19 18:06:39 : Getting values method started.
+18-Sep-19 18:10:38 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_DESCRIPTION for entity (GID = 0x0000000300000001).
+18-Sep-19 18:11:25 : Getting values method started.
+18-Sep-19 18:12:56 : Getting values method successfully finished.
+18-Sep-19 18:13:46 : Getting values method started.
+18-Sep-19 18:21:38 : Network Model Service Test Client is up and running...
+18-Sep-19 18:21:38 : Result directory: ../Results
+18-Sep-19 18:21:41 : Getting values method started.
+18-Sep-19 18:31:29 : Getting values method for entered id = 12884901890 failed.
+	Getting values for resource with ID = 0x0000000300000002 failed. Failed to get values for entity with GID = 0x0000000300000002. Unknown property id = CONNECTIVITYNODE_TERMINALS for entity (GID = 0x0000000300000002).
+18-Sep-19 18:31:38 : Getting values method started.
+18-Sep-19 18:32:14 : Network Model Service Test Client is up and running...
+18-Sep-19 18:32:14 : Result directory: ../Results
+18-Sep-19 18:33:20 : Getting values method started.
+18-Sep-19 18:33:20 : Failed to get model type code for DMS type: 0. Invalid DMS type
+18-Sep-19 18:33:20 : Getting values method for entered id = 196609 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+18-Sep-19 18:34:49 : Getting values method started.
+18-Sep-19 18:34:49 : Failed to get model type code for DMS type: 48. Invalid DMS type
+18-Sep-19 18:34:49 : Getting values method for entered id = 206158430209 failed.
+	Failed to get model type code for DMS type: 48. Invalid DMS type
+18-Sep-19 18:35:26 : Getting values method started.
+18-Sep-19 18:45:43 : Network Model Service Test Client is up and running...
+18-Sep-19 18:45:43 : Result directory: ../Results
+18-Sep-19 18:45:58 : Getting values method started.
+18-Sep-19 18:46:10 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Unknown property id = CONNECTIVITYNODE_TERMINALS for entity (GID = 0x0000000300000001).
+18-Sep-19 18:48:25 : Network Model Service Test Client is up and running...
+18-Sep-19 18:48:25 : Result directory: ../Results
+18-Sep-19 18:48:37 : Getting values method started.
+18-Sep-19 18:48:37 : Getting values method successfully finished.
+18-Sep-19 18:52:14 : Network Model Service Test Client is up and running...
+18-Sep-19 18:52:14 : Result directory: ../Results
+18-Sep-19 18:52:28 : Getting values method started.
+18-Sep-19 18:52:28 : Getting values method successfully finished.

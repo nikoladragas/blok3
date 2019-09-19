@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+			xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+			
+	<!--SeriesCompensator-->
+	<cim:SeriesCompensator rdf:ID="SC_1">
+		<cim:SeriesCompensator.R>11</cim:SeriesCompensator.R>
+		<cim:SeriesCompensator.R0>11</cim:SeriesCompensator.R0>
+		<cim:SeriesCompensator.X>22</cim:SeriesCompensator.X>
+		<cim:SeriesCompensator.X0>22</cim:SeriesCompensator.X0>
+	</cim:SeriesCompensator>
+	<cim:SeriesCompensator rdf:ID="SC_2">
+		<cim:SeriesCompensator.R>33</cim:SeriesCompensator.R>
+		<cim:SeriesCompensator.R0>33</cim:SeriesCompensator.R0>
+		<cim:SeriesCompensator.X>44</cim:SeriesCompensator.X>
+		<cim:SeriesCompensator.X0>44</cim:SeriesCompensator.X0>
+	</cim:SeriesCompensator>		
+	
+	
+	<!--DCLineSegment-->
+	<cim:DCLineSegment rdf:ID="DCLS_1">
+		<cim:Conductor.Length>10</cim:Conductor.Length>
+	</cim:DCLineSegment>
+	<!--DCLineSegment-->
+	<cim:DCLineSegment rdf:ID="DCLS_2">
+		<cim:Conductor.Length>20</cim:Conductor.Length>
+	</cim:DCLineSegment>
+	
+	<!--ConnectivityNode-->
+	<cim:ConnectivityNode rdf:ID="CN_1">
+		<cim:ConnectivityNode.Description>Descreption1</cim:ConnectivityNode.Description>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="CN_2">
+		<cim:ConnectivityNode.Description>Descreption2</cim:ConnectivityNode.Description>
+	</cim:ConnectivityNode>
+	
+	<!--Terminal-->
+	<cim:Terminal rdf:ID="T_1">
+		<cim:Terminal.ConnectivityNode rdf:resource="#CN_1"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#SC_1"/>
+	</cim:Terminal>
+	<!--Terminal-->
+	<cim:Terminal rdf:ID="T_2">
+		<cim:Terminal.ConnectivityNode rdf:resource="#CN_2"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#SC_2"/>
+	</cim:Terminal>
+	
+	<!--PerLengthSequenceImpedance-->
+	<cim:PerLengthSequenceImpedance rdf:ID="PLSI_1">
+		<cim:PerLengthSequenceImpedance.B0ch>10</cim:PerLengthSequenceImpedance.B0ch>
+		<cim:PerLengthSequenceImpedance.Bch>10</cim:PerLengthSequenceImpedance.Bch>
+		<cim:PerLengthSequenceImpedance.G0ch>10</cim:PerLengthSequenceImpedance.G0ch>
+		<cim:PerLengthSequenceImpedance.Gch>10</cim:PerLengthSequenceImpedance.Gch>
+		<cim:PerLengthSequenceImpedance.R>10</cim:PerLengthSequenceImpedance.R>
+		<cim:PerLengthSequenceImpedance.R0>10</cim:PerLengthSequenceImpedance.R0>
+		<cim:PerLengthSequenceImpedance.X>10</cim:PerLengthSequenceImpedance.X>
+		<cim:PerLengthSequenceImpedance.X0>10</cim:PerLengthSequenceImpedance.X0>
+	</cim:PerLengthSequenceImpedance>
+	<cim:PerLengthSequenceImpedance rdf:ID="PLSI_2">
+		<cim:PerLengthSequenceImpedance.B0ch>20</cim:PerLengthSequenceImpedance.B0ch>
+		<cim:PerLengthSequenceImpedance.Bch>20</cim:PerLengthSequenceImpedance.Bch>
+		<cim:PerLengthSequenceImpedance.G0ch>20</cim:PerLengthSequenceImpedance.G0ch>
+		<cim:PerLengthSequenceImpedance.Gch>20</cim:PerLengthSequenceImpedance.Gch>
+		<cim:PerLengthSequenceImpedance.R>20</cim:PerLengthSequenceImpedance.R>
+		<cim:PerLengthSequenceImpedance.R0>20</cim:PerLengthSequenceImpedance.R0>
+		<cim:PerLengthSequenceImpedance.X>20</cim:PerLengthSequenceImpedance.X>
+		<cim:PerLengthSequenceImpedance.X0>20</cim:PerLengthSequenceImpedance.X0>
+	</cim:PerLengthSequenceImpedance>
+	
+	<!--ACLineSegment-->
+	<cim:ACLineSegment rdf:ID="ACLS_1">
+		<cim:ACLineSegment.PerLengthImpedance rdf:resource="#PLSI_1"/>
+		<cim:ACLineSegment.B0ch>10</cim:ACLineSegment.B0ch>
+		<cim:ACLineSegment.Bch>10</cim:ACLineSegment.Bch>
+		<cim:ACLineSegment.G0ch>10</cim:ACLineSegment.G0ch>
+		<cim:ACLineSegment.Gch>10</cim:ACLineSegment.Gch>
+		<cim:ACLineSegment.R>10</cim:ACLineSegment.R>
+		<cim:ACLineSegment.R0>10</cim:ACLineSegment.R0>
+		<cim:ACLineSegment.X>10</cim:ACLineSegment.X>
+		<cim:ACLineSegment.X0>10</cim:ACLineSegment.X0>
+		<cim:Conductor.Length>10</cim:Conductor.Length>
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:ID="ACLS_2">
+		<cim:ACLineSegment.PerLengthImpedance rdf:resource="#PLSI_2"/>
+		<cim:ACLineSegment.B0ch>20</cim:ACLineSegment.B0ch>
+		<cim:ACLineSegment.Bch>20</cim:ACLineSegment.Bch>
+		<cim:ACLineSegment.G0ch>20</cim:ACLineSegment.G0ch>
+		<cim:ACLineSegment.Gch>20</cim:ACLineSegment.Gch>
+		<cim:ACLineSegment.R>20</cim:ACLineSegment.R>
+		<cim:ACLineSegment.R0>20</cim:ACLineSegment.R0>
+		<cim:ACLineSegment.X>20</cim:ACLineSegment.X>
+		<cim:ACLineSegment.X0>20</cim:ACLineSegment.X0>
+		<cim:Conductor.Length>20</cim:Conductor.Length>
+	</cim:ACLineSegment>
+	
+	
+	
+	
+	
+	
+</rdf:RDF>
