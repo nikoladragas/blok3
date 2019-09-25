@@ -1,7 +1,7 @@
 ﻿<delta id="0">
   <operations>
     <operation type="insert">
-      <ResourceDescriptions count="12">
+      <ResourceDescriptions count="16">
         <ResourceDescription>
           <id gid="0x00000006ffffffff" type="PERLENGTHSEQIMP" />
           <Properties>
@@ -41,6 +41,12 @@
           </Properties>
         </ResourceDescription>
         <ResourceDescription>
+          <id gid="0x00000004fffffffd" type="DCLINESEGMENT" />
+          <Properties>
+            <Property id="CONDUCTOR_LENGTH" value="30" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
           <id gid="0x00000001ffffffff" type="SERIESCOMPENSATOR" />
           <Properties>
             <Property id="SERIESCOMP_R" value="11" />
@@ -51,6 +57,15 @@
         </ResourceDescription>
         <ResourceDescription>
           <id gid="0x00000001fffffffe" type="SERIESCOMPENSATOR" />
+          <Properties>
+            <Property id="SERIESCOMP_R" value="33" />
+            <Property id="SERIESCOMP_R0" value="33" />
+            <Property id="SERIESCOMP_X" value="44" />
+            <Property id="SERIESCOMP_X0" value="44" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffd" type="SERIESCOMPENSATOR" />
           <Properties>
             <Property id="SERIESCOMP_R" value="33" />
             <Property id="SERIESCOMP_R0" value="33" />
@@ -111,7 +126,21 @@
           <id gid="0x00000003fffffffe" type="TERMINAL" />
           <Properties>
             <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000002fffffffe" />
-            <Property id="TERMINAL_CONDEQ" value="0x00000001fffffffe" />
+            <Property id="TERMINAL_CONDEQ" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffd" type="TERMINAL" />
+          <Properties>
+            <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000002fffffffe" />
+            <Property id="TERMINAL_CONDEQ" value="0x00000004fffffffd" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffc" type="TERMINAL" />
+          <Properties>
+            <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000002fffffffe" />
+            <Property id="TERMINAL_CONDEQ" value="0x00000001fffffffd" />
           </Properties>
         </ResourceDescription>
       </ResourceDescriptions>

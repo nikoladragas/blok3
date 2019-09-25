@@ -45,3 +45,10 @@ C:\Users\ndrag\Desktop\NikolaDragasBLOK3\ModelLabsProjekat\ModelLabs\NetworkMode
 C:\Users\ndrag\Desktop\NikolaDragasBLOK3\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.dll
 C:\Users\ndrag\Desktop\NikolaDragasBLOK3\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.pdb
 C:\Users\ndrag\Desktop\NikolaDragasBLOK3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CopyComplete
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.dll
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.pdb
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csprojAssemblyReference.cache
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CopyComplete
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.dll
+C:\Users\ndrag\Desktop\blok3\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.pdb

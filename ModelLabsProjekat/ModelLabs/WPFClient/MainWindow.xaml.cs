@@ -352,7 +352,7 @@ namespace WPFClient
 
             if (listBox1.SelectedItems == null || Gid1 == 0)
             {
-                MessageBox.Show("You must chose a propertie");
+                MessageBox.Show("You have to choose properties!");
                 return;
             }
 
@@ -371,7 +371,7 @@ namespace WPFClient
         {
             if (listBox2.SelectedItems == null || ModelKod2 == 0)
             {
-                MessageBox.Show("You must chose a propertie");
+                MessageBox.Show("You have to choose properties!");
                 return;
             }
 
@@ -388,7 +388,7 @@ namespace WPFClient
         {
             if (listBox3.SelectedItems == null || AtributID == 0 || Gid3 == 0 || Tip == 0)
             {
-                MessageBox.Show("You must chose a propertie");
+                MessageBox.Show("You have to choose properties!");
                 return;
             }
 

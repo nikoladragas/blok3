@@ -15,7 +15,13 @@
 		<cim:SeriesCompensator.R0>33</cim:SeriesCompensator.R0>
 		<cim:SeriesCompensator.X>44</cim:SeriesCompensator.X>
 		<cim:SeriesCompensator.X0>44</cim:SeriesCompensator.X0>
-	</cim:SeriesCompensator>		
+	</cim:SeriesCompensator>
+<cim:SeriesCompensator rdf:ID="SC_3">
+		<cim:SeriesCompensator.R>33</cim:SeriesCompensator.R>
+		<cim:SeriesCompensator.R0>33</cim:SeriesCompensator.R0>
+		<cim:SeriesCompensator.X>44</cim:SeriesCompensator.X>
+		<cim:SeriesCompensator.X0>44</cim:SeriesCompensator.X0>
+	</cim:SeriesCompensator>	
 	
 	
 	<!--DCLineSegment-->
@@ -25,6 +31,10 @@
 	<!--DCLineSegment-->
 	<cim:DCLineSegment rdf:ID="DCLS_2">
 		<cim:Conductor.Length>20</cim:Conductor.Length>
+	</cim:DCLineSegment>
+	<!--DCLineSegment-->
+	<cim:DCLineSegment rdf:ID="DCLS_3">
+		<cim:Conductor.Length>30</cim:Conductor.Length>
 	</cim:DCLineSegment>
 	
 	<!--ConnectivityNode-->
@@ -43,7 +53,15 @@
 	<!--Terminal-->
 	<cim:Terminal rdf:ID="T_2">
 		<cim:Terminal.ConnectivityNode rdf:resource="#CN_2"/>
-		<cim:Terminal.ConductingEquipment rdf:resource="#SC_2"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#SC_1"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="T_4">
+		<cim:Terminal.ConnectivityNode rdf:resource="#CN_2"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#SC_3"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="T_3">
+		<cim:Terminal.ConnectivityNode rdf:resource="#CN_2"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#DCLS_3"/>
 	</cim:Terminal>
 	
 	<!--PerLengthSequenceImpedance-->

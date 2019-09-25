@@ -19,7 +19,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 		private ConcreteModel concreteModel;
 		private Delta delta;
 		private ImportHelper importHelper;
-		private TransformAndLoadReport report;          //CEMU OVO SLUZI
+		private TransformAndLoadReport report;          
 
 
 		#region Properties

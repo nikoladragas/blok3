@@ -56,9 +56,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                 case ModelCode.TERMINAL_CONNECTIVITYNODE:
                     property.SetValue(ConnectivityNode);
                     break;
-                case ModelCode.CONNECTIVITYNODE_DESCRIPTION:
-                case ModelCode.CONNECTIVITYNODE_TERMINALS:
-                    break;
                 default:
                     base.GetProperty(property);
                     break;

@@ -28,7 +28,7 @@ namespace FTN.Common
 		EQUIPMENT							= 0x1110000000000000,
 		
 		CONDEQ								= 0x1111000000000000,
-        CONDEQ_TERMINALS                    = 0x1111000000001019,
+        CONDEQ_TERMINALS                    = 0x1111000000000119,
 
         SERIESCOMP                          = 0x1111100000010000,
         SERIESCOMP_R                        = 0x1111100000010105,
